@@ -36,4 +36,7 @@ int main(){
 
     }
     bfs(1);
+    for(int j=1;j<=n;j++){
+        cout <<  j << " Level is " << level[j] <<endl; 
+    }
 }
